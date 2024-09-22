@@ -1,0 +1,32 @@
+.main-layout {
+    background-color: $color-main-bg;
+    color: $color-white;
+    font-size: $font-size-s;
+}
+
+.card {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    padding: 5rem 0;
+    justify-content: center;
+
+    &__theme {
+        width: 70vw;
+
+        &--1 {
+            display: grid;
+            grid-template-columns: 35vw 35vw;
+        }
+    }
+
+    &__left, &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__solo {
+        width: 100%;
+    }
+}

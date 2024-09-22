@@ -1,0 +1,122 @@
+.price-list {
+    &__table {
+        display: grid;
+        grid-template-rows: 8rem 1fr;
+        width: 50rem;
+        height: 65rem;
+        
+        overflow: hidden;
+        color: $color-black;
+        background-color: $color-main-1;
+
+        box-shadow: 0px 0px 15px 2px rgba($color-main-1, .5);
+        border-radius: 20px;
+
+        &__nav {
+            display: grid;
+            grid-template-columns: repeat(3, 33.333%);
+            align-items: center;
+            border-bottom: 1px solid $color-grey;
+            
+            &__opt {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                
+                color: $color-grey;    
+                background-color: $color-grey-very-light;
+                border-bottom: 3px solid transparent;
+                cursor: pointer;
+
+                transition: all .2s ease;
+                
+                &:not(:last-child){
+                    border-right: 1px solid $color-grey;
+                }
+                
+                &.active {
+                    border-bottom: 3px solid $color-grey;
+                    background-color: $color-white;
+                }
+            }
+
+        }
+
+        &__content {
+            &__opt {
+                display: none;
+                height: 90%;
+                margin: 5% 0;
+
+                &.active {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 15% 15% 10% repeat(5, 8%) 20%;
+                }
+            }
+
+            &__bundle,
+            &__description,
+            &__button {
+                grid-column: 1/3;
+            }
+
+            &__title, 
+            &__price, 
+            &__delivery-time, 
+            &__number-of-revisions, 
+            &__button,
+            &__description, 
+            &__bundle {
+                display: flex;
+                align-items: center;
+            }
+
+            &__title, 
+            &__price, 
+            &__delivery-time, 
+            &__number-of-revisions, 
+            &__button,
+            &__description {
+                justify-content: center;
+                text-align: center;
+            }
+
+            &__delivery-time, 
+            &__number-of-revisions {
+                color: $color-grey;
+                gap: 1rem;
+            }
+
+            &__description, 
+            &__bundle {
+                color: $color-grey-light;
+                padding: 0 2rem;
+            }
+
+            &__bundle {
+                gap: 1rem;
+
+                &.active {
+                    color: $color-main-2-dark;
+                }
+            }
+
+            &__button {
+                display: flex;
+                width: 80%;
+                height: 60%;
+                
+                margin: auto;
+
+                border-radius: 1000px;
+                overflow: hidden;
+
+                button {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}

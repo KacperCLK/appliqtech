@@ -1,0 +1,9 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+
+    font-size: $font-size-m;
+}
