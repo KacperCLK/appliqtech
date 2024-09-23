@@ -1,7 +1,5 @@
 .price-list {
     .card__right {
-        justify-content: end;
-
         @media only screen and (max-width: $bp-large) {
             grid-row: 1;
             justify-content: center;
