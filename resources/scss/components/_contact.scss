@@ -1,5 +1,22 @@
 .contact {
     &__envelope{
-        font-size: 400px;
+        font-size: 40rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 25rem;
+        } 
+        
+        @media only screen and (max-width: $bp-smallest) {
+            display: none;
+        } 
+    }
+
+    &__title {
+        display: none;
+
+        @media only screen and (max-width: $bp-smallest) {
+            display: block;
+            margin-bottom: 3rem;
+        } 
     }
 }

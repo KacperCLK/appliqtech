@@ -11,10 +11,12 @@
     }
 
     &--header {
+        font-size: inherit;
         text-decoration: none;
         color: inherit;
         
         transition: all .2s ease;
+        text-align: center;
 
         &:hover {
             color: $color-main-2-dark ;

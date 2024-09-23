@@ -2,7 +2,7 @@
     <div class="card__theme card__theme--2 about-us">
         <span class="title--2">Wants professional and stunning site?</span>
         <span class="style--uppercase title--3">You’ve come to the right place!</span>
-        <span>
+        <span class="about-us__description">
             Learn our 
             <a class="link--1" href="#price-list">offer</a> 
             and pricing, 

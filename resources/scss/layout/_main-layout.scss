@@ -11,12 +11,24 @@
     padding: 5rem 0;
     justify-content: center;
 
+    @media only screen and (max-width: $bp-smallest) {
+        height: 65vh;
+    }
+
     &__theme {
         width: 70vw;
 
+        @media only screen and (max-width: $bp-small) {
+            width: 95vw;
+        }
         &--1 {
             display: grid;
             grid-template-columns: 35vw 35vw;
+            
+            @media only screen and (max-width: $bp-large) {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+            }
         }
     }
 

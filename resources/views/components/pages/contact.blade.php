@@ -4,6 +4,7 @@
             <div class="contact__envelope">
                 <i class="fa-solid fa-envelope-open-text"></i>
             </div>
+            <div class="contact__title title--2 style--uppercase color--main-2">Contact us!</div>
         </div>
         <div class="card__right">
             <x-form />

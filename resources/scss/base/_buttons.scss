@@ -18,7 +18,11 @@
         border: none;
 
         transition: all .2s ease;
-        
+                
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-xs;
+        } 
+
         &:hover{
             transform: scale(1.05);
         }
@@ -41,5 +45,15 @@
         &:hover{
             background: linear-gradient(45deg, $color-main-2, $color-main-2);
         }
+
+        @media only screen and (max-width: $bp-small) {
+            padding: 1rem 6rem;
+            font-size: $font-size-s;
+        } 
+
+        @media only screen and (max-width: $bp-smallest) {
+            padding: 1rem 3rem;
+            font-size: $font-size-xs;
+        } 
     }
 }

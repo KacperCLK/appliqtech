@@ -5,5 +5,15 @@
     gap: 3rem;
     justify-content: center;
 
-    font-size: $font-size-m;
+    &__description {
+        font-size: $font-size-m;
+        text-align: center;
+
+        @media only screen and (max-width: $bp-largest) {
+            font-size: $font-size-s-m;
+        } 
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-s;
+        } 
+    }
 }

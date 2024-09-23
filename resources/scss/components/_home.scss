@@ -4,6 +4,21 @@
         height: 80%;
         border-radius: 50px;
         overflow: hidden;
+        
+        @media only screen and (max-width: $bp-largest) {
+            height: 60%;
+        }        
+        @media only screen and (max-width: $bp-large) {
+            height: 100%;
+            width: 60%;
+        }       
+        @media only screen and (max-width: $bp-medium) {
+            width: 80%;
+            margin-top: 3rem;
+        }      
+        @media only screen and (max-width: $bp-small) {
+            height: 80%;
+        }
     }
 
     &__img {

@@ -5,6 +5,16 @@
             width: 55rem;
             height: 50rem;
             padding: 0 5rem;
+            
+            @media only screen and (max-width: $bp-medium) {
+                height: 38rem;
+                width: 42rem;
+            }  
+
+            @media only screen and (max-width: $bp-smallest) {
+                height: 25rem;
+                width: 90vw;
+            } 
         }
         
         &-slide {
@@ -22,10 +32,24 @@
 
         &-button-next {
             transform: translateX(5rem);
+
+            @media only screen and (max-width: $bp-small) {
+                transform: translateX(2rem);
+            } 
+            @media only screen and (max-width: $bp-small) {
+                transform: translateX(1rem);
+            } 
         }
     
         &-button-prev {
             transform: translateX(-5rem);
+
+            @media only screen and (max-width: $bp-small) {
+                transform: translateX(-2rem);
+            } 
+            @media only screen and (max-width: $bp-small) {
+                transform: translateX(-1rem);
+            } 
         }
 
         &-pagination {
@@ -39,6 +63,14 @@
                 }
             }
         }
+    }
+
+    .card__left {
+        justify-content: start;
+        
+        @media only screen and (max-width: $bp-large) {
+            justify-content: center;
+        }  
     }
 
     &__iframe-container {
