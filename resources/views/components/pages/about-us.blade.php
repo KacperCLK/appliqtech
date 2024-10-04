@@ -1,4 +1,4 @@
-<div id="about-us" class="card">
+<div id="about-us" class="card fade-in">
     <div class="card__theme card__theme--2 about-us">
         <span class="title--2">Wants professional and stunning site?</span>
         <span class="style--uppercase title--3">You’ve come to the right place!</span>

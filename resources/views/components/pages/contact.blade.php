@@ -1,4 +1,4 @@
-<div id="contact-us" class="card">
+<div id="contact-us" class="card slide-in">
     <div class="card__theme card__theme--1 contact">
         <div class="card__left">
             <div class="contact__envelope">

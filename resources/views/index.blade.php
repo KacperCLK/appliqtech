@@ -11,7 +11,8 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
-        @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
+        @vite(['resources\css\app.css', 'resources\scss\app.scss', 'resources/js/app.js'])
+        
     </head>
     <body class="main-layout">
         <x-header/>

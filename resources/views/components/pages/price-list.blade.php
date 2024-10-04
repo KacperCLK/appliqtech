@@ -1,4 +1,4 @@
-<div id="price-list" class="card">
+<div id="price-list" class="card slide-in">
     <div class="card__theme card__theme--1 price-list">
         <div class="card__left">
             <div class="price-list__table">
