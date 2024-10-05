@@ -22,7 +22,8 @@
         <x-pages.our-works :ourWorks="$ourWorks"/>
         <x-pages.price-list :priceLists="$priceLists" />
         <x-pages.contact />
+        
+        @livewireScripts
     </body>
 
-    @livewireScripts
 </html>
