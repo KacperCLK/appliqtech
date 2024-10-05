@@ -6,30 +6,12 @@
         </div>
         
         <div class="about-us__tiles">
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Innovative Web Solutions</h4>
-                <span class="about-us__tile-desc">Tailored web applications that elevate your business.</span>
-            </div>
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Seamless User Experience</h4>
-                <span class="about-us__tile-desc">Crafting intuitive designs that captivate and engage users.</span>
-            </div>
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Scalable Architecture</h4>
-                <span class="about-us__tile-desc">Web apps designed to grow with your business..</span>
-            </div>
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Custom Web Development</h4>
-                <span class="about-us__tile-desc">Bespoke solutions to meet your unique business needs.</span>
-            </div>
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Future-Proof Technology</h4>
-                <span class="about-us__tile-desc">Tailored web applications that elevate your business.</span>
-            </div>
-            <div class="about-us__tile">
-                <h4 class="about-us__tile-title">Agile Development Process</h4>
-                <span class="about-us__tile-desc">Fast, flexible, and responsive to your changing needs..</span>
-            </div>
+            @foreach ($offers as $offer)
+                <div class="about-us__tile">
+                    <h4 class="about-us__tile-title">{{ $offer->title }}</h4>
+                    <span class="about-us__tile-desc">{{ $offer->description }}</span>
+                </div>
+            @endforeach
         </div>
         
         <span class="about-us__description">

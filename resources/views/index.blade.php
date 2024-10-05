@@ -17,9 +17,9 @@
     <body class="main-layout">
         <x-header/>
         <x-pages.home/>
-        <x-pages.about-us/>
+        <x-pages.about-us :offers="$offers" />
         <x-pages.our-works :ourWorks="$ourWorks"/>
         <x-pages.price-list :priceLists="$priceLists" />
-        <x-pages.contact/>
+        <x-pages.contact />
     </body>
 </html>

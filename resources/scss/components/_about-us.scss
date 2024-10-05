@@ -38,8 +38,6 @@
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
-        align-items: center;
-        align-content: center;
 
         justify-self: center;
         align-self: center;
@@ -73,7 +71,7 @@
             width: 80vw;
         }
 
-        h3 {
+        h4 {
             font-size: $font-size-s;
             text-align: center;
         }
