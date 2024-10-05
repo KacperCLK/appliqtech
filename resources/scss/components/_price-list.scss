@@ -89,6 +89,10 @@
                     grid-template-columns: 50% 50%;
                     grid-template-rows: 15% 15% 10% repeat(5, 8%) 20%;
 
+                    @media only screen and (max-width: $bp-small) {
+                        font-size: $font-size-s;
+                    }
+
                     @media only screen and (max-width: $bp-smallest) {
                         margin: 2% 0;
                         height: 96%;

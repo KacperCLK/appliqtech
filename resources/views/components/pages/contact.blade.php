@@ -7,7 +7,7 @@
             <h1 class="contact__title title--1 style--uppercase color--main-2">Contact us!</h1>
         </div>
         <div class="card__right">
-            <x-form />
+            @livewire('contact-form')
         </div>
     </div>
 </div>

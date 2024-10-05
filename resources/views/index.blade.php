@@ -12,7 +12,8 @@
         
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
-        
+
+        @livewireStyles
     </head>
     <body class="main-layout">
         <x-header/>
@@ -22,4 +23,6 @@
         <x-pages.price-list :priceLists="$priceLists" />
         <x-pages.contact />
     </body>
+
+    @livewireScripts
 </html>
