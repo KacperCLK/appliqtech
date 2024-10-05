@@ -1,16 +1,11 @@
 .home {
-
     &__img-container {
-        width: 90%;
-        height: 80%;
+        height: 58vh;
         border-radius: 50px;
         overflow: hidden;
-        
-        @media only screen and (max-width: $bp-largest) {
-            height: 60%;
-        }        
+     
         @media only screen and (max-width: $bp-large) {
-            height: 100%;
+            height: max(45vh, 40rem);
             width: 60%;
         }       
         @media only screen and (max-width: $bp-medium) {
@@ -18,7 +13,7 @@
             margin-top: 3rem;
         }      
         @media only screen and (max-width: $bp-small) {
-            height: 80%;
+            height: 100%;
         }
     }
 
