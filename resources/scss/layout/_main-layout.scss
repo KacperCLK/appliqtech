@@ -7,18 +7,17 @@
 .card {
     display: flex;
     width: 100vw;
-    height: 90vh;
-    padding: 5rem 0;
+    padding: 10vh 0;
     justify-content: center;
 
     @media only screen and (max-width: $bp-medium) {
-        height: 70rem;
+        height: max(fit-content, 70rem);
     }
 
     &__theme {
         width: 70vw;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             width: 95vw;
         }
         &--1 {

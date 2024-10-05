@@ -22,8 +22,11 @@
         @media only screen and (max-width: $bp-largest) {
             font-size: $font-size-l;
         } 
-        @media only screen and (max-width: $bp-smallest) {
+        @media only screen and (max-width: $bp-large) {
             font-size: $font-size-m-l;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-m;
         }
     }
 
@@ -35,7 +38,7 @@
             font-size: $font-size-m;
         } 
         @media only screen and (max-width: $bp-smallest) {
-            font-size: $font-size-s-m;
+            font-size: $font-size-s;
         }
     }
 }

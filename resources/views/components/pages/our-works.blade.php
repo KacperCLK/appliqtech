@@ -1,7 +1,7 @@
 <div id="our-works" class="card slide-in">
     <div class="card__theme card__theme--1 our-works">
         <div class="card__left">
-            <div class="title title--2 style--uppercase color--main-2">Ours works</div>
+            <div class="title title--1 style--uppercase color--main-2">Ours works</div>
         </div>
         <div class="card__right">
             <div class="swiper-container our-works__swiper">

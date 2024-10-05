@@ -1,4 +1,10 @@
 .our-works {
+    height: 90vh;
+
+    @media only screen and (max-width: $bp-small) {
+        height: 80vh;
+    }
+
     .swiper{
         &-container {
             position: relative;
@@ -7,12 +13,16 @@
             padding: 0 5rem;
             
             @media only screen and (max-width: $bp-medium) {
-                height: 38rem;
-                width: 42rem;
+                height: 70vh;
+                width: 70vw;
             }  
 
+            @media only screen and (max-width: $bp-small) {
+                height: 60vh;
+                width: 86vw;
+            } 
+
             @media only screen and (max-width: $bp-smallest) {
-                height: 45rem;
                 width: 95vw;
             } 
         }

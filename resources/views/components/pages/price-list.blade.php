@@ -48,7 +48,7 @@
                             @endforeach
                             <div class="price-list__table__content__button">
                                 <a class="button--main" href="#contact-us">
-                                    Contact us <i class="fa-solid fa-angle-down"></i>
+                                    Contact us
                                 </a>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="card__right">
-            <div class="title title--2 style--uppercase color--main-2">Price list</div>
+            <div class="title title--1 style--uppercase color--main-2">Price list</div>
         </div>
     </div>
 </div>

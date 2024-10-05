@@ -1,4 +1,6 @@
 .price-list {
+    height: fit-content;
+
     .card__right {
         @media only screen and (max-width: $bp-large) {
             grid-row: 1;
@@ -18,7 +20,7 @@
         display: grid;
         grid-template-rows: 8rem 1fr;
         width: 50rem;
-        height: 100%;
+        height: max(70vh, 65rem);
         
         overflow: hidden;
         color: $color-black;
@@ -28,14 +30,15 @@
         border-radius: 20px;
 
         @media only screen and (max-width: $bp-medium) {
-            width: 100%;
-        } 
+            width: min(100%, 50rem);
+        }
 
         @media only screen and (max-width: $bp-small) {        
             border-radius: 0;
         }
 
-        @media only screen and (max-width: $bp-smallest) {  
+        @media only screen and (max-width: $bp-smallest) {
+            height: max(40vh, 35rem);  
             grid-template-rows: 5rem 1fr;
         }
 
@@ -44,7 +47,12 @@
             grid-template-columns: repeat(3, 33.333%);
             align-items: center;
             border-bottom: 1px solid $color-grey;
+
             
+            @media only screen and (max-width: $bp-smallest) {
+                font-size: $font-size-s;
+            }
+                
             &__opt {
                 display: flex;
                 justify-content: center;

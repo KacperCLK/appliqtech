@@ -1,4 +1,10 @@
 .contact {
+    height: max(80vh, 70rem);
+    
+    @media only screen and (max-width: $bp-smallest) {
+        height: max(55vh, 45rem);
+    } 
+
     &__envelope{
         font-size: 40rem;
 
