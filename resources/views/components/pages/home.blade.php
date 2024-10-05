@@ -1,9 +1,9 @@
 <div id="home" class="card">
     <div class="card__theme card__theme--1 home">
         <div class="card__left">
-            <span class="title--1 style--uppercase">
+            <h1 class="title--1 style--uppercase">
                 Your vision, our website!
-            </span>
+            </h1>
         </div>
         <div class="card__right">
             <div class="home__img-container">

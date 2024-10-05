@@ -20,9 +20,9 @@
                             price-list__table__content__opt--{{$loop->index + 1}} 
                             {{ $loop->index === 0 ? 'active' : '' }}
                         ">
-                            <div class="price-list__table__content__title">
+                            <h4 class="price-list__table__content__title">
                                 {{$option->title}}
-                            </div>
+                            </h4>
                             <div class="price-list__table__content__price">
                                 €{{$option->price}}
                             </div>
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="card__right">
-            <div class="title title--1 style--uppercase color--main-2">Price list</div>
+            <h1 class="title title--1 style--uppercase color--main-2">Price list</h1>
         </div>
     </div>
 </div>
